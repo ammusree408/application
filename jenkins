@@ -1,0 +1,114 @@
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    2  git clone https://github.com/ammusree408/application.git
+    3  history
+    4  vi revert exm
+    5  git clone https://github.com/ammmusree408/application.git
+    6  cd application
+    7  ls
+    8  mv README.md githubfile
+    9  ls
+   10  vi revert 
+   11  ls
+   12  git log
+   13  git status
+   14  ls
+   15  cd application
+   16  ls
+   17  rm -r tatus
+   18  ls
+   19  git add .
+   20  git status
+   21  git log
+   22  cd application
+   23  git log --oneline
+   24  ls
+   25  git add revert
+   26  git commit -m revert
+   27  ls
+   28  git log --oneline
+   29  git revert 9645857
+   30  ls
+   31  mv REAdme.md githubfile
+   32  ls
+   33  mv README.md githubfile
+   34  ls
+   35  vi file1
+   36  git log --oneline
+   37  git add .
+   38  git status
+   39  git log --oneline
+   40  git commit -m file1
+   41  ls
+   42  git log --oneline
+   43  git revert 4078fdc
+   44  git log
+   45  git status
+   46  ls
+   47  mv README.md githubfile
+   48  ls
+   49  git tag v
+   50  git tag V
+   51  git branch stack
+   52  git branch add .
+   53  cd application
+   54  ls
+   55  git tag v
+   56  ls
+   57  git tag --version
+   58  git tag
+   59  git log --oneline
+   60  git tag 1.2.0 4078fdc
+   61  git log --oneline
+   62  git tag -d 1.2.0
+   63  git log --oneline
+   64  git tag -d v
+   65  git log --oneline
+   66  git branch
+   67  vi jenkins_install.sh
+   68  ls
+   69  sudo apt updateb-y
+   70  vi jenkins.sh
+   71  cat jenkins.sh
+   72  vi jenkins.sh
+   73  cat jenkins.sh
+   74  sudo apt update - y
+   75  sudo apt update -y
+   76  sudo apt install fontconfig openjdk-17-jre
+   77  sudo wget -0 /usr/share/keyrings/jenkins-keyring.asc \
+   78  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+   79  sudo wget -0 /usr/share/keyrings/jenkins-keyring.asc \
+   80  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+   81  echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
+   82  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+   83  sudo apt-get update - y
+   84  sudo apt-get install jenkins - y
+   85  wget -q -O - https://pkg.jenkins.io/debian-stable/... | sudo apt-get key add
+   86  'sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/>/etc/apt/sources.list.d/jenkind.list
+   87  sudo apt-get update
+   88  sudo apt-get install fontconfig openjdk-11-jre
+   89  sudo apt-get install jenkins
+   90  apt-get -y install openjdk-8-jdk
+   91  sudo apt-get -y install openjdk-8-jdk (it's Java 14.0.1)
+   92  sudo apt-get -y install openjdk-8-jdk
+   93  wget -q -O - http://pkg.jenkins-ci.org/debian-stable/jenkins-ci.org.key | apt-key add 
+   94  sudo wget -q -O - http://pkg.jenkins-ci.org/debian-stable/jenkins-ci.org.key | apt-key add 
+   95  sudo wget -q -O - http://pkg.jenkins-ci.org/debian-stable/jenkins-ci.org.key | apt-key add - (responds "OK")
+   96  sudo wget -q -O - http://pkg.jenkins-ci.org/debian-stable/jenkins-ci.org.key | apt-key add
+   97  sudo wget -q -O - http://pkg.jenkins-ci.org/debian-stable/jenkins-ci.org.key | apt-key add - 
+   98  sudo wget -q -O - http://pkg.jenkins-ci.org/debian-stable/jenkins-ci.org.key | sudo apt-key add 
+   99  sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+  100  sudo apt update
+  101  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+  102  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+  103  sudo apt update
+  104  jenkins --version
+  105  ls
+  106  sudo apt install jenkins
+  107  sudo systemctl start jenkins.service
+  108  sudo systemctl status jenkins
+  109  Access the URL http://hostname:8080
+  110  sudo ufw allow 8080
+  111  sudo ufw enable
+  112  sudo ufw status
+  113  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  114  history
