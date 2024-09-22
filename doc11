@@ -1,0 +1,34 @@
+  1  vi docker_install.sh
+    2  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+    3  sudo docker run hello-world
+    4  sudo apt-get update
+    5  sudo apt-get install ca-certificates curl
+    6  sudo install -m 0755 -d /etc/apt/keyrings
+    7  sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+    8  sudo chmod a+r /etc/apt/keyrings/docker.asc
+    9  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+   10  echo \
+   11    "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu   $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+   12  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+   13    $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+   14  cho   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+   15    $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   16  sudo apt-get update
+   17  sudo docker run hello-world
+   18  $ echo   "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/debian \
+   19    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   20  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   21  sudo docker run hello-world
+   22  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   23  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   24  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu `lsb_release -cs` test"
+   25  sudo apt update
+   26  sudo apt install docker-ce
+   27  docker run nginx
+   28  sudo docker run nginx
+   29  docker pull ubuntu
+   30  sudo docker pull ubuntu
+   31  docker pull centos
+   32  sudo docker pull centos
+   33  sudo docker images
+   34  history
